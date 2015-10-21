@@ -1,0 +1,43 @@
+#tb{
+	width:499px;
+    height:499px;
+	margin:auto;
+	padding:9px;
+	display:none;
+	background:#b8af9e;
+}
+#tb td{
+	float:left;
+	width:99px;
+    height:74px;
+	padding-top:25px;
+	font-size: 40px;
+	display:block;
+	border:9px solid #b8af9e;
+	background:#ccc0b2;
+	text-align:center;
+}
+#start{
+	width:498px;
+    height:348px;
+	margin:auto;
+	font-size:30px;
+	color:#fff7eb;
+	padding-top:150px;
+	text-align:center;
+	background:#b8af9e;
+	font-family:微软雅黑;
+}
+#start a{
+	color:#fff7eb;
+	text-decoration:none;
+}
+#start a:hover{
+	color:#eec22e;
+	cursor:hand;
+	text-decoration:none;
+}
+#start span{
+	font-size:20px;
+	
+}

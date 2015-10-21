@@ -1,0 +1,165 @@
+#start{
+	background:url(./img/set_board.png);
+	width:750px;
+	height:550px;
+	margin:auto;
+}
+#start #startButton{
+	float:left;
+	width:175px;
+	height:70px;
+	margin-left:480px;
+	margin-top:210px;
+	background:url(./img/icon.png) -15px -692px;
+}
+#start #startButton:hover{
+	width:175px;
+	height:70px;
+	background:url(./img/icon.png) -192px -692px;
+}
+#start #introduce{
+	float:left;
+	width:175px;
+	height:70px;
+	margin-left:480px;
+	margin-top:30px;
+	background:url(./img/icon.png) -15px -619px;
+}
+#start #introduce:hover{
+	width:175px;
+	height:70px;
+	background:url(./img/icon.png) -192px -619px;
+}
+#start #out{
+	float:left;
+	width:175px;
+	height:70px;
+	margin-left:480px;
+	margin-top:30px;
+	background:url(./img/icon.png) -20px -837px;
+}
+#start #out:hover{
+	width:175px;
+	height:70px;
+	background:url(./img/icon.png) -200px -837px;
+}
+#help{
+	width:723px;
+	height:489px;
+	margin:auto;
+	display:none;
+	background:url(./img/help.png);
+}
+#help #return{
+	float:left;
+	width:195px;
+	height:53px;
+	margin-left:270px;
+	margin-top:400px;
+	background:url(./img/icon.png) -23px -918px;
+}
+#help #return:hover{
+	width:195px;
+	height:53px;
+	background:url(./img/icon.png) -229px -918px;
+}
+
+#main{
+	width:750px;
+	height:550px;
+	margin:auto;
+	display:none;
+	position:relative;
+	cursor:url(./img/hammer.png),pointer;
+	background:url(./img/bg_canvas.png);
+}
+#daojishi{
+	float:left;
+	width:39px;
+	height:79px;
+	display:none;
+	position:relative;
+	z-index:2;
+	margin-top:-300px;
+	margin-left:700px;
+	background:url(./img/icon.png) -457px -300px;
+}
+#main div{
+	float:left;
+	width:110px;
+	display:none;
+	height:115px;
+	position:absolute;
+	background:url(./img/mouse.png);
+}
+#main div span{
+	float:left;
+	width:88px;
+	height:30px;
+	background:url(./img/icon.png);
+}
+#main .div1{
+	left:140px;
+	top:170px;
+}
+#main .div2{
+	left:325px;
+	top:168px;
+}
+#main .div3{
+	left:520px;
+	top:173px;
+}
+#main .div4{
+	left:110px;
+	top:260px;
+}
+#main .div5{
+	left:325px;
+	top:262px;
+}
+#main .div6{
+	left:525px;
+	top:260px;
+}
+#main .div7{
+	left:105px;
+	top:358px;
+}
+#main .div8{
+	left:325px;
+	top:363px;
+}
+#main .div9{
+	left:548px;
+	top:365px;
+}
+#score{
+	float:left;
+	width:75px;
+	height:25px;
+	position:absolute;
+	display:none;
+	left:780px;
+	top:170px;
+	background:url(./img/icon.png) -23px -163px;
+}
+#number{
+	float:left;
+	position:absolute;
+	font-size:24px;
+	color:yellow;
+	font-weight:800;
+	left:860px;
+	top:169px;
+}
+/*#nextTime{
+	float:left;
+	width:657px;
+	height:215px;
+	position:absolute;
+	display:none;
+	left:380px;
+	top:260px;
+	background:url(./img/next.png);
+}*/
